@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        a:link{
+            color:red;
+        }
+        a:hover{
+            color: yellow;
+        }
+        a:active{color: cyan;}
+        a:visited{color: black;}
+        /* change the color of the first letter   */
+        p::first-letter{
+            color: red;
+        }
+        /* insert a image after the paragraph */
+        p::after{
+            content: url('download.jpg');   
+        }
+    </style>
 </head>
 <body>
     <img src="car-967387_640.webp" usemap="#im">
@@ -14,5 +32,20 @@
         <area shape="rect" coords="20,40,90,120" href="demo.html">
 
     </map>
+    <a href="r3.html">Click Me</a>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos delectus saepe ut! In repellendus, nemo eligendi rem quia id numquam a mollitia corporis?
+    </p>
+    <section>
+        <h1> Hello 
+            <p> HTML IS A HYPER TEXT MARKUP LANGUAGE
+                <d> hello myself Ayush
+                    <div>
+                        
+                    </div>
+                </d>
+            </p>
+        </h1>
+    </section>
 </body>
 </html>
